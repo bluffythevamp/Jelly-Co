@@ -1,0 +1,51 @@
+/** font-family: 'Noto Serif JP', serif;
+font-family: 'Roboto', sans-serif; **/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 2% 10%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  padding-bottom: 2%;
+  font-family: 'Noto Serif JP', serif;
+}
+
+footer {
+  padding-top: 2%;
+  text-align: left;
+}
+
+/*** Outfit Links ***/
+
+ul {
+  list-style: none;
+  padding-top: 4%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+  color: #000;
+}
+
+a:link, a:visted {
+  text-decoration: none;
+  color: #000;
+
+}
+
+/*** CSS Animation ***/
+
+.animate__fadeInDown {
+ animation: fadeInDown;
+ animation-duration: 2s;
+  }
